@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83889B9E1AB8A2AA00015219 /* PredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83889B9D1AB8A2AA00015219 /* PredicateViewController.m */; };
 		83D33D951AB8972C00F320D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D33D941AB8972C00F320D7 /* main.m */; };
 		83D33D981AB8972C00F320D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D33D971AB8972C00F320D7 /* AppDelegate.m */; };
 		83D33D9B1AB8972C00F320D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D33D9A1AB8972C00F320D7 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83889B9C1AB8A2AA00015219 /* PredicateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredicateViewController.h; sourceTree = "<group>"; };
+		83889B9D1AB8A2AA00015219 /* PredicateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredicateViewController.m; sourceTree = "<group>"; };
 		83D33D8F1AB8972C00F320D7 /* WebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D33D931AB8972C00F320D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D33D941AB8972C00F320D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				83D33D971AB8972C00F320D7 /* AppDelegate.m */,
 				83D33D991AB8972C00F320D7 /* ViewController.h */,
 				83D33D9A1AB8972C00F320D7 /* ViewController.m */,
+				83889B9C1AB8A2AA00015219 /* PredicateViewController.h */,
+				83889B9D1AB8A2AA00015219 /* PredicateViewController.m */,
 				83D33D9C1AB8972C00F320D7 /* Main.storyboard */,
 				83D33D9F1AB8972D00F320D7 /* Images.xcassets */,
 				83D33DA11AB8972D00F320D7 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83889B9E1AB8A2AA00015219 /* PredicateViewController.m in Sources */,
 				83D33D9B1AB8972C00F320D7 /* ViewController.m in Sources */,
 				83D33D981AB8972C00F320D7 /* AppDelegate.m in Sources */,
 				83D33D951AB8972C00F320D7 /* main.m in Sources */,
@@ -415,6 +421,7 @@
 				83D33DB41AB8972D00F320D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D33DB51AB8972D00F320D7 /* Build configuration list for PBXNativeTarget "WebViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				83D33DB71AB8972D00F320D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

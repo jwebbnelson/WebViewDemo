@@ -22,9 +22,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.webView = [[WKWebView alloc]initWithFrame:self.view.frame];
 
-       [self.view addSubview:self.webView];
-     [self configureView];
- 
+    [self.view addSubview:self.webView];
+    [self configureView];
 }
 
 - (void)configureView {
